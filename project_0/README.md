@@ -13,9 +13,10 @@
 
 :arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
-
 ### Какой кейс решаем?
 Нужно написать программу, которая угадывает число за минимальное число попыток.
+
+:arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
 ## Условия соревнования: ##
 - Компьютер загадывает целое число от 0 до 100, и нам его нужно угадатью Под "угадать" подразумевается "написать программу, которая укадывает число".
@@ -29,3 +30,20 @@
 
 ### Краткая информация о данных
 ....
+
+:arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
+
+### Этапы работы над проектом
+....
+
+:arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
+
+### Рузультат
+....
+
+:arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
+
+### Выводы
+....
+
+:arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
