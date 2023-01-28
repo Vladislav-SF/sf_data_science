@@ -5,7 +5,7 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+    """Угадываем число, деля пополам диапазон, в котором оно предполагается.
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -14,15 +14,26 @@ def random_predict(number:int=1) -> int:
         int: Количество попыток
     """
     count = 0
-    
+    num_1 = 1 # начало диапазона поиска загаданного числа после цикла
+    num_2 = 101 # окончание диапазона поиска после цикла
+    predict_number = int((num_2-num_1)/2) # предполагаемoе число
+
     while True:
-        count+=1
-        predict_number = np.random.randint(1, 101) # предполагаемoе число
-        if number == predict_number:
-            break # выход из цикла, если угадали
-    return(count)
-   
         
+        count += 1
+            
+        if number == predict_number:
+            break  # выход из цикла, если число угадано 
+        
+        elif predict_number < number:
+            num_1 = predict_number
+            predict_number = int(num_2-(num_2-num_1)/2) 
+
+        elif predict_number > number:
+            num_2 = predict_number
+            predict_number = int(num_1+(num_2-num_1)/2)
+    return count
+
 def score_game(random_predict) -> int:
     """За какое среднее количество попыток в среднем за 1000 проходов угадывает наш алгоритм
 
