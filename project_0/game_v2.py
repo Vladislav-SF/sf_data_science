@@ -55,5 +55,5 @@ def score_game(random_predict) -> int:
     return(score)
     
 if __name__ == '__mine__':
-    RUN
+    # RUN
     score_game(random_predict)
