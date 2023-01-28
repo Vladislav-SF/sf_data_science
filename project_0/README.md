@@ -29,21 +29,21 @@
 Учимся писать хороший код на python.
 
 ### Краткая информация о данных
-....
+В прогамме используются целые числа от 1 до 100.
 
 :arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
 ### Этапы работы над проектом
-....
+Работа выполнена одним этапом.
 
 :arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
 ### Рузультат
-....
+Алгоритм угадывает число в среднем за 5 попыток.
 
 :arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
 ### Выводы
-....
+Поставленная задача выполнена.
 
 :arrow_up: [к главлению](https://github.com/Vladislav-SF/sf_data_science/blob/main/project_0/README.md#Оглавление)
